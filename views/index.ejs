@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador - Andres Molina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5cc45362ff.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="/js/functions.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="hcontainer">
+            <div class="code-img">
+                <i class="fa-solid fa-code"></i>
+            </div>
+            <h1>Primer challenge Alura: Encriptador</h1>
+            <div class="subhcontainer">
+                <h4>Desarrollado por: Andres Molina</h2>
+                    <a href="https://github.com/andresmolinae29/" target="_blank" rel="noopener noreferrer">Github</a>
+                    <a href="https://www.linkedin.com/in/andr%C3%A9s-molina-escobar-11758b140/" target="_blank"
+                        rel="noopener noreferrer">Linkedin</a>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="encrypt">
+            <textarea id="inputText" name="inputext" placeholder="Ingrese el texto aca"></textarea>
+            <div class="encripter-buttons">
+                <button id="encrypt" onclick="encrypt()">Encriptar</button>
+                <button id="decrypt" onclick="decrypt()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="encrypt">
+            <textarea id="result" name="inputext" placeholder="Resultado" readonly="readonly"></textarea>
+            <div class="encripter-buttons">
+                <button id="copy" onclick="copy()">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <div class="row">
+                Encriptador Copyright © 2024 All rights reserved || Hecho por: Andres Molina
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
